@@ -1,5 +1,3 @@
-@media only screen and (max-width: 992px) {
-  body {
-    background-color: blue;
-  }
+@media only screen and (max-width: 980px) {
+  .wrapper { width: 90%; }
 }
