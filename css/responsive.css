@@ -37,8 +37,15 @@
   #navbar nav a {
     font: 0.9em;
   }
+  
   .col-3 p {
-    column-count: 1;
+  -moz-column-count: 1;
+  -webkit-column-count: 1;
+  column-count: 1;
   }
-  .col-1, .col-2, .col-3
+  
+  .col-1, .col-2, .col-3 {
+    
+  }
+  }
 }
