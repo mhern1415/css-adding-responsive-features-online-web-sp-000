@@ -2,6 +2,15 @@
   .wrapper { width: 90%; }
 }
 
+
 #social {
-  width: 82px;
+  position: absolute;
+  top: 82px;
+  right: 4px;
+  width: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .body {font: 85%;}
+  
 }
